@@ -2,6 +2,12 @@
 
 A minimal proof-of-concept demonstrating the classic **DLL injection via `CreateRemoteThread`** technique on Windows.
 
+## Accompanying Article
+
+This repository accompanies the following technical article, which explains the Windows internals behind the implementation, including virtual memory, VADs, PE loading, handles, threads, and detection considerations.
+
+[**Beyond the APIs: A Windows Internals Deep Dive into Process Injection**](https://medium.com/@ronepstein7/beyond-the-apis-a-windows-internals-deep-dive-into-process-injection-afeb4d756bdd?sharedUserId=ronepstein7)
+
 ---
 
 ## How It Works
